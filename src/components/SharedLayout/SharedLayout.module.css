@@ -1,0 +1,8 @@
+.headerContainer > nav {
+  display: flex;
+  gap: 20px;
+  height: 75px;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+  padding-left: 40px;
+}

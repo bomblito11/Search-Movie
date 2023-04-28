@@ -1,0 +1,48 @@
+.movieCardContainer {
+  display: flex;
+  padding: 25px;
+  padding-left: 75px;
+}
+
+.backButton {
+  background-color: #5f5e5e;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  min-height: 30px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.backButton:hover,
+.backButton:focus {
+  opacity: 0.75;
+}
+
+.movieImg {
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.movieDetailsContainer {
+  padding-left: 40px;
+  font-family: 'Montserrat';
+}
+
+.userScore {
+  font-weight: 700;
+}
+
+.additionalInfoContainer {
+  padding-top: 40px;
+}

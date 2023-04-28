@@ -1,0 +1,24 @@
+.castContainer {
+  padding: 0 150px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.castList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  text-align: center;
+}
+
+.castCard {
+  width: 200px;
+}
+
+.castImg {
+  width: 140px;
+  box-shadow: 8px 8px 24px 0px rgb(127, 127, 131);
+  border-radius: 4px;
+}

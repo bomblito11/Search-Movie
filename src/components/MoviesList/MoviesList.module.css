@@ -1,0 +1,15 @@
+.moviesList {
+  list-style: none;
+  text-align: left;
+}
+
+.movie {
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+  font-size: 18px;
+  font-family: 'Quicksand';
+}
+
+.movie:hover {
+  color: rgb(235, 231, 31);
+}

@@ -1,0 +1,30 @@
+.searchForm {
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Quicksand';
+}
+
+.searchInput {
+  border-radius: 5px;
+  width: 300px;
+  padding: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-family: 'Quicksand';
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.searchButton {
+  padding: 6px;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  font-family: 'Quicksand';
+  margin-left: -2px;
+}

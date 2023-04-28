@@ -1,0 +1,22 @@
+.reviewsContainer {
+  padding: 0 100px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.reviewsList {
+  list-style: none;
+  padding: 20px;
+}
+
+.reviewCard {
+  border: 1px solid rgb(44, 44, 44);
+  border-radius: 6px;
+  padding: 20px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.reviewCard:not(:last-of-type) {
+  margin-bottom: 20px;
+}
