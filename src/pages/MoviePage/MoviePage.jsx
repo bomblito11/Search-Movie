@@ -36,7 +36,7 @@ const MoviePage = () => {
 
   return (
     <div>
-      <Link to={backLinkHref}>
+      <Link to={backLinkHref} state={{ from: location }}>
         <button type="button" className={css.backButton}>
           ← Go back
         </button>
@@ -56,10 +56,14 @@ const MoviePage = () => {
             <h3>Addiditonal information</h3>
             <ul>
               <li>
-                <Link to={'cast'}>Cast</Link>
+                <Link to={'cast'} state={{ from: location.state.from }}>
+                  Cast
+                </Link>
               </li>
               <li>
-                <Link to={'reviews'}>Reviews</Link>
+                <Link to={'reviews'} state={{ from: location.state.from }}>
+                  Reviews
+                </Link>
               </li>
             </ul>
           </div>
